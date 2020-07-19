@@ -736,7 +736,7 @@ transform-origin: left bottom;
     	top:0;
     	right:0;
     	bottom:0;
-    	width:180px;
+    	width:120px;
     	background-color: #222222;
     	z-index:200;
     	padding-top:80px;
@@ -751,7 +751,10 @@ transform-origin: left bottom;
     }
     header .navbar ul li{
     	display: block;
-    }
+	}
+	header .logo a {
+		font-size: 20px;
+	}
 }
 
 @media(max-width: 767px){
