@@ -24,12 +24,12 @@
                  </div>
                  <div class="navbar">
                        <ul>
-                             <li><a href="#home" class="active">Home</a></li>
-                             <li><a href="#about">About</a></li>
-                             <li><a href="#services">Services</a></li>
-                             <li><a href="#portfolio">Portfolio</a></li>
-                             <li><a href="#blog">Blog</a></li>
-                             <li><a href="#contact">Contact</a></li>
+                             <li><a href="#home" class="active ham-burger">Home</a></li>
+                             <li><a href="#about" class="ham-burger">About</a></li>
+                             <li><a href="#services" class="ham-burger">Services</a></li>
+                             <li><a href="#portfolio" class="ham-burger">Portfolio</a></li>
+                             <li><a href="#blog" class="ham-burger">Blog</a></li>
+                             <li><a href="#contact" class="ham-burger">Contact</a></li>
                        </ul>
                  </div>
            </div>
@@ -333,6 +333,7 @@
    $(".ham-burger").click(function(){
        $(this).toggleClass("active")
        $(".navbar").toggleClass("open");
+       $(".navbar").removeClass("closed");
    })
 
    })
