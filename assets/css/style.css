@@ -426,6 +426,7 @@ background-color:transparent;
 .portfolio .portfolio-content .card{
 	float:left;
 	width: 33.33%;
+	height: 50%;
 	padding:15px;
 }
 
