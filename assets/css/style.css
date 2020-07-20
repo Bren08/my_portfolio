@@ -217,18 +217,9 @@ h2.title::before{
 	float: left;
 }
 
-.about .about-content .img{
-	float: left;
-	width: 35%;
-	padding:15px;
-}
-.about .about-content .img img{
-	width: 100%;
-	border:10px solid #3c3c3c;
-}
 .about .about-content .description{
 	float: left;
-	width: 65%;
+	width: 100%;
 	padding:15px;
 }
 .about .about-content .description h4{
@@ -471,7 +462,6 @@ background-color:transparent;
 	color:#f3971b;
 	font-size:16px;
 	font-weight: 700;
-	text-transform: uppercase;
 	letter-spacing:.5px;
 }
 .portfolio .portfolio-content .card .box img{
